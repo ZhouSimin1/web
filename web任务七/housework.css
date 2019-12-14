@@ -1,0 +1,101 @@
+/*
+* @Author: 20928
+* @Date:   2019-12-09 10:17:41
+* @Last Modified by:   20928
+* @Last Modified time: 2019-12-11 22:01:52
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+	list-style: none;
+}
+#roll{
+	width: 100%;
+	height: 25px;
+    background-color: #D3D3D3;
+}
+#horn{
+	float: left;
+    position:relative;
+    overflow:hidden;
+    width:1000px;
+    height:20px;
+    line-height:20px;
+    margin-left: 5px;
+}
+#pic{
+	float: left;
+    margin-left:250px;
+    overflow: hidden;
+}
+#sentence{
+    position:absolute;
+    color: red;
+ }
+
+.box{
+	width: 1200px;
+	height: 397px;
+	border: 0px solid;
+	margin: 10px 160px 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	height: 397px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+ 	background-color: black;
+	top: 175px;
+	line-height: 50px;
+	background-color:rgb(255,0,0) ; 
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+ }
+ #left{
+ 	left: 30px;
+ }
+ #right{
+ 	right: 30px;
+ }
+ .nav{
+ 	position: absolute;
+ 	left: 500px;
+ 	bottom: 20px;
+ }
+ .nav>li{
+ 	float: left;
+ 	width: 20px;
+ 	height: 20px;
+ 	text-align: center;
+ 	background: #ccc;
+ 	cursor: pointer;
+ 	margin: 0 10px;
+ 	border-radius: 50px;
+ }
+ .nav .active{
+ 	background: red;
+ 	color: white;
+ }
+ /* #one{
+ 	color: red;
+ } */
